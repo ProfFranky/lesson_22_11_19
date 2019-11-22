@@ -1,0 +1,35 @@
+CLASSI ASTRATTE E INTERFACCIE
+
+1)creare una interfaccia Prodotto con metodi getDescrizione e getPrezzo
+
+2)Creare una classe Orata che implementi l'interfaccia Prodotto
+ a)gli attributi della classe sono descirzione e prezzo
+ b)deve implementare i metodi dell'interfaccia Prodotto
+
+3)Creare una interfaccia Pesabile con metodi setPeso e getPeso
+
+4)Creare una classe Farina che implementi Prodotto e Pesabile
+ a)con attributi prezzoAlKg e peso
+ b)la classe deve implementare i metodi delle interfacce
+ c)modificare in maniera opportuna il metodo getPrezzo
+ 
+5)Creare una interfaccia NFCLeggibile con metodi getId e getPosizione
+ 
+6)Implementare le classi Farina e Orata con l'interfaccia NFCLeggibile e Farina Orata con Pesabile
+
+7)Creare una classe ABSTRACT Pesce
+ a)con metodi getLuogoPesca e getTempCons (restituisce la temperatura di conservazione)
+ 
+8)Estendere la classe Orata con la classe astratta Pesce
+
+9)Creare la classe Settore 
+ a)con attributi posizione e mq (metri quadrati) e temperatura
+ b)con metodi getter e un metodo getMqDisponibili
+ 
+10)Creare classe lotto 
+ a)con attributi fornitore, prodotto e quantita
+ b)con metodi getter e getPrezzo
+ 
+11)Creare classe Main 
+ a)con una funzione che dato un lotto restituisce tutti i settori nei quali può essere collocato
+ 
