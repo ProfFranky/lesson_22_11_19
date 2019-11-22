@@ -15,7 +15,7 @@ CLASSI ASTRATTE E INTERFACCIE
  
 5)Creare una interfaccia NFCLeggibile con metodi getId e getPosizione
  
-6)Implementare le classi Farina e Orata con l'interfaccia NFCLeggibile e Farina Orata con Pesabile
+6)Implementare le classi Farina e Orata con l'interfaccia NFCLeggibile e Orata con Pesabile
 
 7)Creare una classe ABSTRACT Pesce
  a)con metodi getLuogoPesca e getTempCons (restituisce la temperatura di conservazione)
